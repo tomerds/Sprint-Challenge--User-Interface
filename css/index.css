@@ -85,6 +85,12 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content .text-container2 {
+    width: 98%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -110,6 +116,47 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#b1 {
+    background-color: teal;
+}
+
+#b2 {
+    background-color: gold;
+}
+
+#b3 {
+    background-color: cadetblue;
+}
+
+#b4 {
+    background-color: coral;
+}
+
+#b5 {
+    background-color: crimson;
+}
+
+#b6 {
+    background-color: forestgreen;
+}
+
+#b7 {
+    background-color: darkorchid;
+}
+
+
+#b8 {
+    background-color: hotpink;
+}
+
+#b9 {
+    background-color: indigo;
+}
+
+#b10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -144,3 +191,38 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+    
+}
+
+nav img {
+    align-self: flex-start;
+ 
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+nav li {
+    margin: 0 40px;
+    
+}
+
+li a {
+    text-decoration: none;
+}
+
+header {
+    padding: 40px 0;
+}
+
