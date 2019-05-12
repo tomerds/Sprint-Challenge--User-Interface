@@ -107,6 +107,7 @@ p {
     justify-content: space-evenly;
 }
 
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -226,3 +227,40 @@ header {
     padding: 40px 0;
 }
 
+.middle-content2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.middle-content2 .info-box {
+    height: 450px;
+    width: 46%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 2%;
+    border-bottom: dashed black 1px;
+}
+
+.middle-content2 .learn-box {
+    border: black solid 2px;
+    border-radius: 10px;
+    width: 35%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bottom-content2 {
+    display: flex;
+    justify-content: center
+}
+
+.bottom-content2 .text-container3 {
+    width: 98%;
+    padding: 20px 1%; 
+    margin-bottom: 10px;
+}
